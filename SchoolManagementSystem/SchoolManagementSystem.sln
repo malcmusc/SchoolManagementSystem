@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManagementSystem", "SchoolManagementSystem\SchoolManagementSystem.csproj", "{C4A38FB4-02DA-4BF4-843D-EAE2D13C91E4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{0FB79B2E-26F0-4A28-84B6-0A4F547E8B47}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SMS.Database", "SMS.Database\SMS.Database.sqlproj", "{760115D2-4D26-4EC8-813A-84E47E1B6626}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,18 @@ Global
 		{C4A38FB4-02DA-4BF4-843D-EAE2D13C91E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4A38FB4-02DA-4BF4-843D-EAE2D13C91E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4A38FB4-02DA-4BF4-843D-EAE2D13C91E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760115D2-4D26-4EC8-813A-84E47E1B6626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760115D2-4D26-4EC8-813A-84E47E1B6626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760115D2-4D26-4EC8-813A-84E47E1B6626}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{760115D2-4D26-4EC8-813A-84E47E1B6626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760115D2-4D26-4EC8-813A-84E47E1B6626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760115D2-4D26-4EC8-813A-84E47E1B6626}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{760115D2-4D26-4EC8-813A-84E47E1B6626} = {0FB79B2E-26F0-4A28-84B6-0A4F547E8B47}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3592C388-F8B1-4922-A65D-A2AA86B427A5}
